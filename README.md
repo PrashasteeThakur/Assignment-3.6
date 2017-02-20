@@ -27,7 +27,7 @@ int n=sc.nextInt();   //size of array
 int[] a=new int[n];
 for(int i=0;i<n;i++)
 {
-a[i]=sc.nextInt();
+a[i]=sc.nextInt();    //taking array elements from user
 }
 Arrays.sort(a);   //sorting array
 for(int i=a.length-1;;i>=0;i--){
